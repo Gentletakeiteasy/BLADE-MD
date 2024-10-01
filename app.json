@@ -12,7 +12,7 @@
   },
   "ALIVE_MESSAGE": {
     "description": " SET YOUR ALIVE MESSAGE FOR THE BOT",
-     "required" :false
+     "required" : "DO YOU PRAY FOR ME TO BE DEAD"
     },
     "AUTO_STATUS_SAVER": {
       "description": "Automatically saves status of every person and sends in log number.",
@@ -21,7 +21,7 @@
   "AUTO_READ_STATUS": {
     "description": "Fill the value true if you want bot view your Statuses.",
     "required" :false,
-    "value": "false"
+    "value": "true"
       },
     "HEROKU_API_KEY": {
     "description": "Put HEROKU API KEY",
@@ -36,8 +36,8 @@
      "value": "https://telegra.ph/file/5b8747782b8fb7312bd9d.jpg"
     },
     "ANTI_BAD_WORD": {
-    "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
-     "required" :false
+    "description": "dm",
+     "required" :true
     },
    "ANTILINK_VALUES": {
     "description": "Put words for antilink",
@@ -46,7 +46,7 @@
     },
      "ANTILINK_ACTION": {
     "description": "Put action for antilink",
-     "value": "remove",
+     "value": "warn",
      "required" :false
     },
   "LEVEL_UP_MESSAGE": {
@@ -61,16 +61,16 @@
     },
     "DISABLE_PM": {
       "description": "Disable bot in pm",
-      "value": "false",
+      "value": "true",
       "required" :false
     },
       "PREFIX": {
   "description": "Enter your desired prefix for bot.",
-      "value": "."
+      "value": "@"
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "put owner number"
+       "value": "2348020674070"
  },	  
    "SESSION_ID": {
     "description": "DONT CUT BLADE-MD;;; WORD PUT YOURE SESSION ID HERE.",
@@ -92,16 +92,16 @@
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-         "value": "public"
+         "value": "private"
   },
       "AUTO_REACTION": {
     "description": "Reacts emoji to all commands.",
      "value": "false",
-     "required": false 
+     "required": true 
   },
   "PACK_AUTHOR": {
     "description": "PUT STICKER AUTHER NAME",
-    "value": "ALEXTV:"
+    "value": "babyboy:"
   },
   "PACK_NAME": {
     "description": "PUT STICKER PACK NAME",
